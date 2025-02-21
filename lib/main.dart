@@ -5,6 +5,7 @@ import 'splash_screen.dart';
 import 'onboard_screen.dart';
 import 'login_screen.dart';
 import 'home_screen.dart';
+import 'chat_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -13,6 +14,8 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -26,6 +29,7 @@ class MyApp extends StatelessWidget {
         '/onboard': (context) => OnboardScreen(),
         '/login': (context) => LoginScreen(),
         '/home': (context) => HomeScreen(),
+        '/chat': (context) => MyHomePage(title: 'Hi ! I am Maxie..'),
       },
     );
   }

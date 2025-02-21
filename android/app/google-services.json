@@ -20,7 +20,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160712199906-oo8fcvoo3vbtdbc1ivdihin10plalnku.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "160712199906-md9jfcpntdft1l8c4loj64bv8j2dig76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ai.axarsoft.askmaxie"
+              }
+            }
+          ]
         }
       }
     }
