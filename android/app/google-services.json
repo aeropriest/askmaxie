@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "247893142235",
+    "project_id": "ask-maxie",
+    "storage_bucket": "ask-maxie.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247893142235:android:6168ba5b7e89c65087bafe",
+        "android_client_info": {
+          "package_name": "com.example.askmaxie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-0ODQRGhLB-FxifDy-XVhKbze5PPC3uk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
